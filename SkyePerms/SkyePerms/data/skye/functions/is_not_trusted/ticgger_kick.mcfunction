@@ -1,0 +1,1 @@
+$execute as @a[limit=1] if score @s id matches $(id) run function skye:is_not_trusted/ez_kick
