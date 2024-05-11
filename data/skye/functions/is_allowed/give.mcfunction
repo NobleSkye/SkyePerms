@@ -1,5 +1,5 @@
 scoreboard players set @a give -1
-scoreboard players enable @a give
+scoreboard players enable @a[tag=give.command] give
 
 
 execute as @a[scores={give=1}] run give @s stone

@@ -18,15 +18,7 @@ function skye:is_not_trusted/force_gm
 function skye:is_allowed/give
 
 
-#
-
-
-# clear @a[tag=!is_trusted] command_block
-# clear @a[tag=!is_trusted] chain_command_block
-# clear @a[tag=!is_trusted] repeating_command_block
-# clear @a[tag=!is_trusted] command_block_minecart
-
-#id
+#ids
 execute as @a unless score @s id matches 0.. run scoreboard players set @s id -1
 execute as @a[limit=1,sort=random,scores={id=-1}] run function code:id
 
@@ -34,5 +26,6 @@ execute as @a[limit=1,sort=random,scores={id=-1}] run function code:id
 
 scoreboard players enable @a[tag=is_trusted] skye.kick
 execute as @a[tag=is_trusted] if score @s skye.kick matches 1.. store result storage skye trigger_kick int 1 run scoreboard players get @s skye.kick
-execute as @a[tag=is_trusted] if score @s skye.kick matches 1.. run function skye:is_not_trusted/ticgger_kick with storage skye ticgger_kick
+execute as @a[tag=is_trusted] if score @s skye.kick matches 1.. run function skye:is_not_trusted/tigger_kick with storage skye ticgger_kick
 execute as @a if score @s skye.kick matches 1.. run scoreboard players reset @s skye.kick
+
