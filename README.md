@@ -1,5 +1,5 @@
 # SkyePerms
-the minecraft permition manager by NobelSkye
+the minecraft permition manager by NobleSkye
 
 
 ## basics
