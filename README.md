@@ -1,5 +1,5 @@
 # SkyePerms
-the minecraft permition manager by NobleSkye
+the minecraft tag-based permition manager by NobleSkye
 
 
 ## basics

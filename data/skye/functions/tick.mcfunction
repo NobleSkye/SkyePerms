@@ -17,8 +17,24 @@ function skye:is_not_trusted/force_gm
 # Give Block & Items by Block ids
 function skye:is_allowed/give
 
+# Disables All Gamemodes
+scoreboard players reset @a gma 
+scoreboard players reset @a gmc
+scoreboard players reset @a gms
+scoreboard players reset @a gmsp
 
-#
+# Enables All Gamemodes
+scoreboard players enable @a[tag=is_trusted] gma
+scoreboard players enable @a[tag=is_trusted] gmc
+scoreboard players enable @a[tag=is_trusted] gmsp
+scoreboard players enable @a[tag=is_trusted] gms
+
+# Enables One Gamemode Per Tag
+scoreboard players enable @a[tag=gma] gma
+scoreboard players enable @a[tag=gmc] gmc
+scoreboard players enable @a[tag=gmsp] gmsp
+scoreboard players enable @a[tag=gms] gms
+
 
 
 # clear @a[tag=!is_trusted] command_block
