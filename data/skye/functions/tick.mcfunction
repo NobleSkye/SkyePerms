@@ -18,7 +18,15 @@ function skye:is_not_trusted/force_gm
 function skye:is_allowed/give
 
 
-#ids
+#
+
+
+# clear @a[tag=!is_trusted] command_block
+# clear @a[tag=!is_trusted] chain_command_block
+# clear @a[tag=!is_trusted] repeating_command_block
+# clear @a[tag=!is_trusted] command_block_minecart
+
+#id
 execute as @a unless score @s id matches 0.. run scoreboard players set @s id -1
 execute as @a[limit=1,sort=random,scores={id=-1}] run function code:id
 
