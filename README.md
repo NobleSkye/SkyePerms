@@ -1,5 +1,5 @@
 # SkyePerms
-the minecraft tag-based permition manager by NobleSkye
+The minecraft tag-based datapack permission manager by NobleSkye
 
 
 ## basics
