@@ -19,4 +19,6 @@ The minecraft tag-based datapack permission manager by NobleSkye
 ## functions
 ```/function skye:kick {"player":"[username]"}``` : kicks the player specified
 
+```/function skye:smitr {"player":"[username]"}``` : smites the player specified, kill them with lightning
+
 ```/trigger [gamemode]``` : switches to that gamemode if permited
