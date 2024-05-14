@@ -1,4 +1,4 @@
-# SkyePerms v1.0
+# SkyePerms v0.7.0
 ## The Minecraft Tag-Based Datapack Permission Manager by NobleSkye
 
 ### Overview
