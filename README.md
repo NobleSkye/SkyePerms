@@ -31,5 +31,5 @@ SkyePerms is a Minecraft datapack designed to manage permissions using tags. It 
 Feedback and contributions are welcome! Feel free to [open issues](https://github.com/NobleSkye/SkyePerms/issues) or submit [pull requests](https://github.com/NobleSkye/SkyePerms/pulls).
 
 ### Credits
-- SkyePerms was created by NobleSkye.
+- [NobleSkye](https://github.com/NobleSkye), Creator of SkyePerms. 
 - [@LogLot](https://github.com/loglot) For alot of changes and ideas
