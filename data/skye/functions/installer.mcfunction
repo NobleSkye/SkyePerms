@@ -26,3 +26,8 @@ team add force.banned
 team modify force.banned color dark_red
 scoreboard objectives add is_banned dummy
 scoreboard objectives add give trigger
+
+scoreboard objectives add skyeVars dummy
+scoreboard players set whitelist skyeVars 0
+
+

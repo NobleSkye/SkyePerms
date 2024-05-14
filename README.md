@@ -1,4 +1,4 @@
-# SkyePerms v0.7.0
+# SkyePerms v0.7.1
 ## The Minecraft Tag-Based Datapack Permission Manager by NobleSkye
 
 ### Overview
@@ -21,11 +21,17 @@ SkyePerms is a Minecraft datapack designed to manage permissions using tags. It 
 - `is_trusted`: Combination of all gamemode tags.
 - `force.[gamemode tag]`: Forces the specified gamemode.
 - `is_banned`: Bans the player.
+- `whitelisted`: Adds player to the whitelist
 
 ### Functions
 - `/function skye:kick {"player":"[username]"}`: Kicks the specified player.
 - `/function skye:smite {"player":"[username]"}`: Smites the specified player with lightning.
+- `/function skye:whitelist/enable`: enables whitelist
+- `/function skye:whitelist/disable`: disables whitelist
 - `/trigger [gamemode]`: Switches to the specified gamemode if permitted.
+
+### Environment Variables
+- `whitelist`: 0:false 1:true ; weather the whitelist is working
 
 ### Feedback and Contributions
 Feedback and contributions are welcome! Feel free to open issues or submit pull requests on the [GitHub repository](link_to_repo).
