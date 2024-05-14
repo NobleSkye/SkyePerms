@@ -28,8 +28,8 @@ SkyePerms is a Minecraft datapack designed to manage permissions using tags. It 
 - `/trigger [gamemode]`: Switches to the specified gamemode if permitted.
 
 ### Feedback and Contributions
-Feedback and contributions are welcome! Feel free to [open issues](https://github.com/NobleSkye/SkyePerms/issues) or submit [pull requests](https://github.com/NobleSkye/SkyePerms/pulls).
+Feedback and contributions are welcome! Feel free to open issues or submit pull requests on the [GitHub repository](link_to_repo).
 
 ### Credits
-- SkyePerms was created by NobleSkye.
-- [@LogLot](https://github.com/loglot) For alot of changes and ideas
+- [@NobleSkye](https://github.com/NobleSkye), creator of SkyePerms.
+- [@loglot](https://github.com/loglot) For alot of changes and ideas
