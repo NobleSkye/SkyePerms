@@ -1,5 +1,5 @@
 
-# Logic for if on Force.banned Team that takes awhile to get on,,
+# Logic for if on Force.banned Team that takes awhile to get on,
 execute as @a[tag=is_banned] run function skye:is_not_trusted/ban_logic {"player":"@s"}
 
 # Clear Tags if you have "is_not_trusted" where you wont be able to do any triggers
@@ -17,8 +17,8 @@ function skye:is_not_trusted/force_gm
 # Give Block & Items by Block ids
 function skye:is_allowed/give
 
-
-#
+# Whitelist
+execute if score whitelist skyeVars matches 1 run function skye:whitelist/tick
 
 
 # clear @a[tag=!is_trusted] command_block

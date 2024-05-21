@@ -16,6 +16,7 @@ scoreboard objectives remove gmsp
 scoreboard objectives remove gms
 scoreboard objectives remove ban.timer
 scoreboard objectives remove give
+scoreboard objectives remove skyeVars
 
 # Disables All Gamemodes
 scoreboard players reset @a
@@ -24,7 +25,7 @@ scoreboard players reset @a
 
 
 
-# Ban Logic Removeal
+# Ban Logic Removal
 scoreboard objectives remove ban.timer
 team remove force.banned
 
@@ -36,7 +37,7 @@ tag @a remove gms
 tag @a remove gma
 tag @a remove gmsp
 tag @a remove is_not_trusted
-
+tag @a remove whitelisted
 
 
 tellraw @a {"text": "Scoreboards and tags Have been Fully removed","color": "dark_red","bold": true}

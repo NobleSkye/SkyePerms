@@ -1,4 +1,4 @@
-tellraw @a {"text": "SkyePerms 0.6.8 has Loaded","color": "light_purple","bold": true}
+tellraw @a {"text": "SkyePerms 0.7.1 has Loaded","color": "light_purple","bold": true}
 
 scoreboard objectives add gma trigger
 scoreboard objectives add gmc trigger
