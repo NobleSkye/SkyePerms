@@ -2,13 +2,14 @@
 ## The Minecraft Tag-Based Datapack Permission Manager by NobleSkye
 
 ### Overview
-SkyePerms is a Minecraft datapack designed to manage permissions using tags. It allows players to easily switch gamemodes, manage permissions, and execute functions.
+SkyePerms is a Minecraft datapack designed to manage permissions using tags. It allows players to easily switch gamemodes, manage permissions, and execute functions. This is mainly designed for ```play.legitimoose.com``` which is a datapack creation network to share datapacks. 
 
 ### Installation
-1. Download the `SkyePerms-v[version#].zip` file from the [releases page](https://github.com/NobleSkye/SkyePerms/releases).
+1. Download the `SkyePerms-v[version].zip` file from the [releases page](https://github.com/NobleSkye/SkyePerms/releases).
 2. Extract the contents of the zip file.
 3. Place the extracted folder in the `datapacks` directory of your Minecraft world. \
 ```/.minecraft/saves/world/datapacks/EXTRACT HERE```
+3.5. Make sure the datapack files looks like ```datapacks/skyeperms/assets``` and other files. 
 4. Play the world
 
 ### Usage
@@ -24,8 +25,8 @@ SkyePerms is a Minecraft datapack designed to manage permissions using tags. It 
 - `whitelisted`: Adds player to the whitelist
 
 ### Functions
-- `/function skye:kick {"player":"[username]"}`: Kicks the specified player.
-- `/function skye:smite {"player":"[username]"}`: Smites the specified player with lightning.
+- `/function skye:kick {"player":"username"}`: Kicks the specified player.
+- `/function skye:smite {"player":"username"}`: Smites the specified player with lightning.
 - `/function skye:whitelist/enable`: enables whitelist
 - `/function skye:whitelist/disable`: disables whitelist
 - `/trigger [gamemode]`: Switches to the specified gamemode if permitted.
@@ -34,7 +35,7 @@ SkyePerms is a Minecraft datapack designed to manage permissions using tags. It 
 - `whitelist`: 0:false 1:true ; weather the whitelist is working
 
 ### Feedback and Contributions
-Feedback and contributions are welcome! Feel free to open issues or submit pull requests on the [GitHub repository](link_to_repo).
+Feedback and contributions are welcome! Feel free to open issues or submit pull requests on the [GitHub repository](https://github.com/NobleSkye/SkyePerms). 
 
 ### Credits
 - [@NobleSkye](https://github.com/NobleSkye), creator of SkyePerms.
