@@ -1,6 +1,6 @@
 # SkyePerms v0.7.1
 ## The Minecraft Tag-Based Datapack Permission Manager by NobleSkye
-https://img.shields.io/modrinth/dt/:KxdofMrx
+![Modrinth Downloads](https://img.shields.io/modrinth/dt/:KxdofMrx)
 
 ### Overview
 SkyePerms is a Minecraft datapack designed to manage permissions using tags. It allows players to easily switch gamemodes, manage permissions, and execute functions. This is mainly designed for ```play.legitimoose.com``` which is a datapack creation network to share datapacks. 
