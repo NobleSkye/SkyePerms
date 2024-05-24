@@ -13,5 +13,9 @@ scoreboard objectives add is_banned dummy
 scoreboard objectives add give trigger
 scoreboard objectives add blacklisted dummy
 
+# Whitelist Logic
+scoreboard objectives add enabled dummy
+scoreboard objectives add whitelist trigger
+
 # Kick Logic Setup
 scoreboard objectives add skye.kick trigger
