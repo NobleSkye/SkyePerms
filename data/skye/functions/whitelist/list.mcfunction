@@ -1,1 +1,0 @@
-tellraw @s "this function is not setup right now"
